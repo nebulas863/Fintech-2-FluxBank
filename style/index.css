@@ -1,0 +1,396 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+}
+
+header {
+    padding: 30px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}
+
+.img-div {
+    width: 20%;
+    /* border: 1px solid blue; */
+    text-align: center;
+}
+
+.img-flux {
+    width: 50%;
+}
+
+.sign-flex {
+    /* border: 1px solid green; */
+    display: flex;
+    gap: 30px;
+    padding: 10px 20px;
+}
+
+.login-btn {
+    background-color: white;
+    border: 0;
+    border-radius: 0;
+    cursor: pointer;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+}
+.login-btn:hover {
+    color: #0e53ba;
+}
+
+
+.signup-btn {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+    background-color: #0066FF;
+    padding: 10px 20px;
+    border-radius: 20px;
+    /* margin: 30px 0; */
+    cursor: pointer;
+    border:  1px #0066FF;
+}
+
+.signup-btn:hover {
+    background-color: #0e53ba;
+}
+
+/* section */
+
+.section-1 {
+    padding: 60px 0;
+    /* border: 1px solid green; */
+    text-align: center;
+}
+
+.sec1-h1 {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 96px;
+    color: rgb(0, 0, 0);
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.sec1-p {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgb(75, 85, 99);
+    width: 55%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.btn-getstarted {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+    background-color: #0066FF;
+    padding: 17px 30px;
+    border-radius: 35px;
+    margin: 30px 0;
+    cursor: pointer;
+    border: 1px #0066FF;
+}
+
+.btn-getstarted:hover {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    transform: translateY(-10px);
+}
+
+.btn-getstarted:hover {
+    background-color: #0e53ba;
+}
+
+/*  */
+.section-2 {
+    /* border: 1px solid red; */
+    background-color: #000000;
+    padding: 55px 0;
+}
+
+.sec2-h2 {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 30px 0;
+    /* border: 1px solid red; */
+    padding: 15px 0;
+}
+
+.sec2-grid {
+    /* border: 1px solid green; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    padding: 20px;
+    margin: 40px auto;
+    width: 97%;
+}
+
+.grid-child {
+    /* border: 1px solid yellow; */
+    text-align: center;
+}
+
+.sec2-h3 {
+    margin: 15px 0;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    color: rgb(255, 255, 255);
+}
+
+.sec2-p {
+    margin: 15px 0;
+    padding: 5px;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.25px;
+    color: rgb(156, 163, 175);
+}
+
+.icon-box {
+    width: 80px;
+    height: 80px;
+    /* margin: 0 auto 20px; */
+    margin: 30px auto;
+    border-radius: 50%;
+
+    /* soft blue background */
+    /* background: rgba(59, 130, 246, 0.1); */
+    background: #0066FF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-box i {
+    font-size: 30px;
+    /* color: #3B82F6; */
+    color: white;  
+}
+
+.icon-box:hover {
+    transition: all 0.3s ease;
+    transform: translateY(-10px);
+}
+
+
+/*  */
+.section-3 {
+    padding: 60px 0;
+    /* border: 1px solid green; */
+    text-align: center;
+}
+
+.sec3-h1 {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    color: rgb(0, 0, 0);
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.sec3-p {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(75, 85, 99);
+    width: 55%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+
+/*  */
+
+hr {
+    margin: 20px auto;
+    font-size: 10px;
+    width: 70%;
+    
+}
+
+/* footer */
+
+footer {
+
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer-p {
+
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgb(107, 114, 128);
+    
+}
+
+/* responsiveness */
+
+/* 980px */
+@media (max-width: 980px) {
+
+    /* HEADER */
+    header {
+        padding: 20px;
+    }
+
+    .img-div {
+        width: 30%;
+    }
+
+    .img-flux {
+        width: 70%;
+    }
+
+    /* HERO SECTION */
+    .sec1-h1 {
+        font-size: 60px;
+        line-height: 70px;
+        width: 90%;
+    }
+
+    .sec1-p {
+        font-size: 20px;
+        width: 75%;
+    }
+
+    /* SECTION 2 GRID */
+    .sec2-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+
+    .sec2-h2 {
+        font-size: 45px;
+    }
+
+    /* SECTION 3 */
+    .sec3-h1 {
+        font-size: 45px;
+        width: 70%;
+    }
+
+    .sec3-p {
+        width: 75%;
+    }
+}
+
+/* 690px */
+
+@media (max-width: 690px) {
+
+    /* HEADER */
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .img-div {
+        width: 50%;
+    }
+
+    .img-flux {
+        width: 100%;
+    }
+
+    .sign-flex {
+        gap: 15px;
+    }
+
+    /* HERO SECTION */
+    .sec1-h1 {
+        font-size: 40px;
+        line-height: 48px;
+        width: 95%;
+    }
+
+    .sec1-p {
+        font-size: 18px;
+        width: 90%;
+    }
+
+    .btn-getstarted {
+        padding: 14px 25px;
+        font-size: 16px;
+    }
+
+    /* SECTION 2 */
+    .sec2-h2 {
+        font-size: 32px;
+    }
+
+    .sec2-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .sec2-h3 {
+        font-size: 22px;
+    }
+
+    .sec2-p {
+        font-size: 16px;
+    }
+
+    /* ICON SIZE */
+    .icon-box {
+        width: 70px;
+        height: 70px;
+    }
+
+    .icon-box i {
+        font-size: 24px;
+    }
+
+    /* SECTION 3 */
+    .sec3-h1 {
+        font-size: 32px;
+        width: 90%;
+    }
+
+    .sec3-p {
+        font-size: 16px;
+        width: 90%;
+    }
+
+    /* FOOTER */
+    .footer-p {
+        font-size: 14px;
+    }
+}
