@@ -38,6 +38,18 @@ header{
     box-shadow:0 6px 18px rgba(0,0,0,0.06);
 }
 
+.img-div {
+    width: 20%;
+    /* border: 1px solid blue; */
+    text-align: center;
+}
+
+.img-flux {
+    width: 50%;
+    border-radius: 55%;
+    padding: 15px;
+}
+
 /* hide balance */
 
 .hidden {
@@ -381,6 +393,15 @@ header{
         /* flex-direction: column;
         align-items: flex-start; */
         gap: 15px;
+    }
+
+    .img-div {
+        width: 30%;
+    }
+
+    .img-flux {
+        width: 50%;
+        border-radius: 55%;
     }
 
     /* Balance text slightly smaller */

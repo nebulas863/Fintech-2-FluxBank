@@ -1,3 +1,7 @@
+// console.log("JS Loaded");
+
+// document.body.style.background = 'red';
+
 // spinnerboard
 
 function startLoading(button, text) {
@@ -13,7 +17,7 @@ function stopLoading(button) {
 
 // 
 // 
-document.body.style.backgroundColor = 'lightblue';
+// document.body.style.backgroundColor = 'lightblue';
 
 let signUpForm = document.getElementById('signUp');
 
