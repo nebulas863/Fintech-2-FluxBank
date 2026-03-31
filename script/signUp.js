@@ -174,7 +174,7 @@ signUpForm.addEventListener('submit', async (e) => {
             text: "You have successfully signed up!",
             icon: "success"
         }).then(() => {
-            window.location.href = "../pages/signIn.html";
+            window.location.href = "../pages/signin.html";
         })
 
         signUpForm.reset();

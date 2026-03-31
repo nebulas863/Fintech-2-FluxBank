@@ -68,7 +68,7 @@ toggleBalanceBtn.addEventListener("click", () => {
 
 onAuthStateChanged(auth, (user) => {
     if (!user) {
-        window.location.href = "../pages/signIn.html";
+        window.location.href = "../pages/signin.html";
     }
 
 });
@@ -242,7 +242,7 @@ onAuthStateChanged(auth, async (user) => {
             });
 
             
-            window.location.href = "../pages/signIn.html";
+            window.location.href = "../pages/signin.html";
             
         } catch (error) {
             

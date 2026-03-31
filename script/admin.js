@@ -40,7 +40,7 @@ const auth = getAuth();
 onAuthStateChanged(auth, async (user) => {
 
     if (!user) {
-        window.location.href = "../pages/signIn.html";
+        window.location.href = "../pages/signin.html";
         return;
     }
 
