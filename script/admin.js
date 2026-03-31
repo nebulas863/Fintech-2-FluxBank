@@ -360,7 +360,7 @@ function stopLoading(button) {
             });
 
             
-            window.location.href = "../pages/signIn.html";
+            window.location.href = "../pages/signin.html";
             
         } catch (error) {
             
